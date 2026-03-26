@@ -15,9 +15,8 @@ public abstract class HealthTracker {
     public HealthTracker(double weight, int height) {
         boolean isValid = this.setWeight(weight) && this.setHeight(height);
         if (!isValid) {
-            // handle error
-            System.out.println("ERROR: bad data given to constructor");
-            System.exit(0);
+            //throw error
+            throw new IllegalArgumentException("Error bad data given to full constructor"); 
         }
     }
 
