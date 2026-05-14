@@ -47,14 +47,14 @@
                </ImageView>
             </graphic>
        </Tab>
-       <Tab text="Weight">
+       <Tab text="Stock">
          <content>
            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
          </content>
             <graphic>
                <ImageView fitHeight="21.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
                   <image>
-                     <Image url="@../../../icons/excersiveIcon.png" />
+                     <Image url="@../../../icons/stock.png" />
                   </image>
                </ImageView>
             </graphic>
